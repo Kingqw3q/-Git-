@@ -25,19 +25,19 @@ Git工作目录对于文件的修改（增删改减）
 * 作用：查看提交记录
 * 命令：git log[option]
  * option
-  * `--all` 显示所有分支
-  * `--pretty=oneline`将提交信息显示为一行
-  * `--abbrev-commit`使得输出的commited更加简短
-  * `--graphy`以图的形式显示
-  * `--decorate`在Mac本上有时会不显示装饰，这个可以让其显示
+   * `--all` 显示所有分支
+   * `--pretty=oneline`将提交信息显示为一行
+   * `--abbrev-commit`使得输出的commited更加简短
+   * `--graphy`以图的形式显示
+   * `--decorate`在Mac本上有时会不显示装饰，这个可以让其显示
 
 ### 1.2.4版本回退
 *  作用：版本切换
 *  命令：`git reset --hard commitID`
- * commit  ID可以使用`git-log`或者`git log`指令查看 
+   * commit  ID可以使用`git-log`或者`git log`指令查看 
 * 如何查看已经删除的记录
- * git reflog
- * 可以查看已经删除的提交记录
+   * git reflog
+   * 可以查看已经删除的提交记录
 
 
 
