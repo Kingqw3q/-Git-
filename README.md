@@ -1,7 +1,12 @@
 # Git常用命令行
-This is my first HTML5
-<p>This is a paragraph </p>
-so let us continue to edit this txt
-<h1>This is a Title <h1>
-<p>This is a paragraphy <p>
-  <i>This is a Italic<i>
+这篇文章将要学习Git的基本语句 
+
+## 1.1获取本地仓库
+## 1.2基础操作指令
+ * 查看修改状态（status）
+ * 添加到工作暂存区（add）
+ * 提交暂存区到本地仓库（conmmit)  
+ * 查看提交日志（log）
+ * 版本回退
+ * 添加文件到忽略表
+ 
