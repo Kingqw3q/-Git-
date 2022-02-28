@@ -39,14 +39,16 @@ Git工作目录对于文件的修改（增删改减）
    * `--decorate`在Mac本上有时会不显示装饰，这个可以让其显示
 
 ### 1.2.5、 版本回退
-*  作用：版本切换
-*  命令：`git reset --hard commitID`
+* 作用：版本切换
+* 命令：`git reset --hard commit ID`
    * commit  ID可以使用`git-log`或者`git log`指令查看 
 * 如何查看已经删除的记录
    * git reflog
    * 可以查看已经删除的提交记录
-
-
+* 如何让某一类文件不进行提交到缓存区
+   * 创建`.gitignore`文件
+   * 使用VI编辑器，`vi .gitignore`
+   * 输入`*.a`，将.a后置的文件都不存入缓存区
 
 
 
