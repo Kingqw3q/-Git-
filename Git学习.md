@@ -13,6 +13,13 @@ Git工作目录对于文件的修改（增删改减）
 * 仓库`respository`由暂存区`index`使用`git commit`提交
 * 工作区(workspace)通过`git add`将文件添加到缓存区(staged)，缓存区(staged)通过`git commit`将文件提交到仓库(respository) 
 
+## 1.3、 配置Git用户名和邮箱
+配置用户名和邮箱可以让编辑有缘可查
+*配置用户名
+	* `git config --global user.name"用户名"`
+*配置邮箱
+	*`git config --global user.email"邮箱"`
+
 ### 1.2.1、 查看修改状态(status)
 * 作用：查看文件当前是处于工作区还是暂存区
 * 命令：`git status`
